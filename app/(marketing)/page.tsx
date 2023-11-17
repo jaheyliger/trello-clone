@@ -1,6 +1,11 @@
 import { Button } from '@/components/ui/button';
 import { Medal } from 'lucide-react';
+import localFont from "next/font/local"
 import Link from 'next/link';
+
+const headingFont = localFont({
+	src: "../../public/fonts/font.woff2"
+})
 
 const MarketingPage = () => {
 	return (
